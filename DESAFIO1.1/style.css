@@ -1,0 +1,159 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family:android ;
+    src: url('fontes/idroid.otf');
+}
+
+:root {
+    --cor1:#e5003591;
+    --cor2:#BB1F44;
+    --cor3:#913047;
+    --cor4:#4b242d;
+
+    --fonte-padrao: Arial, Helvetica, Verdana, sans-serif;
+    --fonte-cursiva: cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor1);
+}
+
+header {
+    background-color: var(--cor2);
+    min-height: 120px;
+    text-align: center;
+    color:  white;
+    margin: 1px 1px 0px 1px;
+   border-top-left-radius: 7px;
+   border-top-right-radius: 7px;
+}
+
+header > h1 {
+   padding: 15px 0px 10px 0px;
+}
+
+header > p {
+    padding: 5px;
+}
+
+nav {
+    background-color: var(--cor3);
+    font-family: var(--fonte-cursiva);
+    padding: 8px;
+    margin: 0px 1px 0px 1px;
+   border-bottom-left-radius: 7px;
+   border-bottom-right-radius: 7px;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: var(--cor2);
+    border-radius: 5px;
+    height: 10px;
+    width: 10px;
+}
+
+nav > a:active {
+    box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.596);
+ }
+
+body {
+    font-family: var(--fonte-padrao);
+}
+
+main {
+    background-color: white;
+    padding: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    margin: auto;
+    min-width: 263px ;
+    max-width: 850px;
+    margin-bottom: 20px;
+}
+
+main p {
+    text-align: justify;
+    text-indent: 25px;
+    margin: 15px 0px;
+    line-height: 2em;
+}
+
+main h2 {
+    font-family: android;
+    color: #4b242d;
+}
+
+main .degrade {
+    background-image: linear-gradient(to right, var(--cor1),transparent);
+    padding-left: 3px;
+}
+
+#video {
+    background-color: var(--cor2);
+    margin: 20px 0px 20px 0px; 
+     position: relative;
+     padding: 20px;
+     padding-bottom: 54%;
+}
+
+
+#video > iframe {
+  position: absolute;
+  top: 2%;
+  left: 5%;
+  width: 90%;
+  height: 90%;
+}
+img {
+    width: 100%;
+}
+
+aside {
+    margin: auto;
+    background-color: var(--cor1);
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+aside > h3 {
+   background-color: var(--cor3);
+   padding: 5px;
+   border-top-left-radius: 10px ;
+   border-top-right-radius: 10px ;
+}
+
+aside > ul {
+    list-style-type: '\1F480\00A0';
+    list-style-position: inside;
+    columns: 2;
+    margin-top: 25px;
+    padding: 5px;
+ }
+
+ aside p {
+    padding: 20px;
+ }
+
+footer {
+    background-color: var(--cor3);
+    text-align: center;
+    min-width: 263px ;
+    max-width: 850px;
+    margin: auto;
+    
+    color: white;
+}
+

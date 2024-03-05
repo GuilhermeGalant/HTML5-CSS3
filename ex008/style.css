@@ -1,0 +1,11 @@
+div {
+    display: inline-block; /*diexa tudo na mesma linha*/
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 2px solid lightcoral;
+}
+ div:hover {
+    background-color: blue;
+ }

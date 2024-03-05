@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /*
+Medidas Absolutas
+cm, mm, in, px, pt, pc
+
+Tentar utilizar somente em e px
+
+Medidas Relativas
+em, ex, rem, vw,vh, %
+ */ 
+  
+}

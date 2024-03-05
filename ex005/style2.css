@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'coconut';
+    src: url('fonts/Coconut Charcoal.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal
+/*
+Tipos de format()
+opentype (otf)
+truetype (ttf)
+*/
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'coconut';
+    font-weight: normal
+}
