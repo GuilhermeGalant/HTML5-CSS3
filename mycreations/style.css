@@ -1,0 +1,115 @@
+:root {
+    --cor1:#235FD9;
+    --cor2:#FFE01F;
+    --luffy:#AC2426;
+    --nami:#F28241;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Passion+One:wght@400;700;900&family=Recursive:wght@300..1000&family=Sriracha&display=swap ');
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Madimi+One&family=Passion+One:wght@400;700;900&family=Poppins:wght@400;500;600;700&family=Recursive:wght@300..1000&family=Sriracha&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Passion+One:wght@400;700;900&family=Poppins:wght@400;500;600;700&family= Recursivo:wght@300..1000&family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+main p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-align: justify;
+    padding: 15px;
+    margin: auto;
+    width: 80%;
+    font-size: 100%;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
+    text-indent: 25px;
+    line-height: 30px;
+}
+
+header {
+    background-color: var(--cor1);
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0px 1px 0px 1px;
+}
+
+header img {
+    padding: 10px 0px 0px 0px;
+    width: 50vw;
+}
+
+header p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+#img {
+    background-position: 50% -40%;
+    background-repeat: no-repeat;
+    margin: auto;
+    min-width:263px;
+    max-width: 860px;
+    height: 155px;
+    background-image: url(imagens/wallpaper/one-piece-characters-black-suit-ra7aoetxvst0pw1i.jpg);
+    background-attachment: fixed;
+ }
+nav {
+    margin: auto;
+    text-align: center;
+    min-width: 263px;
+    max-width: 860px;
+    height: 100px;
+}
+
+main h2 {
+    font-family: serif;
+    text-align: center;
+    padding: 15px 0px 40px 0px;
+    margin: auto;
+    min-width: 263px;
+    max-width: 940px;
+    font-size: 9vw;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.479);
+}
+
+nav a {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    display:inline-block;
+    width: 8vw;
+    background-color: var(--cor1);
+    color: white;
+    padding: 15px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    border-radius:  0px 0px 10px 0px ;
+    transition: 0.4s;
+    min-block-size: 15px;
+    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.445);
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    border-radius:  0px 10px 0px  10px ;
+    
+}
+
+nav a:active {
+    background-color: var(--nami);
+    transition: 0s;
+}
+
+strong {
+    color: var(--nami);
+}
