@@ -24,92 +24,143 @@ main p {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     text-align: justify;
-    padding: 15px;
-    margin: auto;
-    width: 80%;
     font-size: 100%;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.384);
     text-indent: 25px;
-    line-height: 30px;
+    line-height: 37px;
 }
+
+
 
 header {
-    background-color: var(--cor1);
+  
+    margin: 0px 1px 0px;
+    padding: 20px 0px;
+    background-color: #f28241d5;
     text-align: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 0px 1px 0px 1px;
-}
-
-header img {
-    padding: 10px 0px 0px 0px;
-    width: 50vw;
-}
-
-header p {
-    font-size: 14px;
-    padding-bottom: 10px;
-}
-
-#img {
-    background-position: 50% -40%;
-    background-repeat: no-repeat;
-    margin: auto;
-    min-width:263px;
-    max-width: 860px;
-    height: 155px;
-    background-image: url(imagens/wallpaper/one-piece-characters-black-suit-ra7aoetxvst0pw1i.jpg);
-    background-attachment: fixed;
- }
-nav {
-    margin: auto;
-    text-align: center;
-    min-width: 263px;
-    max-width: 860px;
-    height: 100px;
-}
-
-main h2 {
-    font-family: serif;
-    text-align: center;
-    padding: 15px 0px 40px 0px;
-    margin: auto;
-    min-width: 263px;
-    max-width: 940px;
-    font-size: 9vw;
-    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.479);
-}
-
-nav a {
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    text-align: center;
-    display:inline-block;
-    width: 8vw;
-    background-color: var(--cor1);
-    color: white;
-    padding: 15px;
-    margin-right: 10px;
-    margin-bottom: 20px;
-    border-radius:  0px 0px 10px 0px ;
-    transition: 0.4s;
-    min-block-size: 15px;
-    box-shadow:  2px 2px 4px rgba(0, 0, 0, 0.445);
-    text-decoration: none;
-
-}
-
-nav a:hover {
-    border-radius:  0px 10px 0px  10px ;
+    
     
 }
 
-nav a:active {
-    background-color: var(--nami);
-    transition: 0s;
+header img {
+    width: 75vw;
 }
 
-strong {
-    color: var(--nami);
+header P {
+    color: white;
 }
+
+header p strong{
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--cor1);
+}
+
+nav {
+    background-color: #f28241d5;
+    margin: 0px 1px 40px 1px;
+    padding: 20px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+nav a {
+    background-color: var(--luffy);
+    padding: 10px;
+     transition: 0.3s;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    background-color: #F28241;
+    border-radius: 10px 0px 10px 0px;
+   
+}
+
+
+
+
+h2 {
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.466);
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.OnePiece1 {
+    color: var(--luffy);
+    font-size: 9vw;
+    
+    margin: 40px 40px 0px 0px;
+    padding: 1px 10px 1px;
+    border-radius: 5px 5px 0px 0px;
+}
+
+
+#OnePiece {
+    position: relative;
+    background-color: #f2824171;
+    max-width: 600px;
+    min-width: 0px;
+    
+    padding: 30px;
+    
+   
+}
+
+#OnePiece p {
+    color: var(--luffy);
+}
+
+#imgop {
+    width: 10vw;
+    position: absolute;
+    top: 12px;
+
+}
+
+.container {
+    position: relative;
+}
+
+.paragrafs{
+  border-radius:0px 20px 20px 20px; 
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.473);
+  margin: 0px 15px 50px 10px; 
+}
+
+#persons {
+    background-color: #ac2426ab;
+    max-width: 450px;
+    min-width: 0px;
+    padding: 10px;
+    color: var(--luffy);
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#footer {
+    color: white;
+    text-decoration: underline;
+}
+
+#footer:hover {
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
