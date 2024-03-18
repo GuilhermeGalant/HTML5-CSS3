@@ -1,0 +1,1 @@
+essas porras foram enviadas, pra saber mais aprenda a porra de php
