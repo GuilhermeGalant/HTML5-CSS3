@@ -45,3 +45,35 @@ section#telefone {
     width: 268px;
 
 }
+
+.logoredondo {
+    border-radius: 50%;
+    width: 50px;
+    border: 1px solid black;
+    box-shadow: 2px 1px 4px rgba(0, 0, 0, 0.459);
+    box-sizing: border-box;
+}
+
+.logoredondo:hover {
+    border: 2px solid rgba(255, 255, 255, 0.637);
+    transition: border .3s;
+}
+
+#redes-sociais {
+   float: right;
+   margin: 0px;
+   padding: 20px 0px 20px 20px;
+}
+
+div {
+    padding: 5px;
+}
+
+.frame {
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 268px;
+}
+
